@@ -31,6 +31,9 @@ $ be-visual --help
         Avatar size upload:       180 x 180
 ```
 
+## References
+
+* Twitter: [Customizing your profile](https://support.twitter.com/articles/127871-customizing-your-profile)
 
 ## License
 
