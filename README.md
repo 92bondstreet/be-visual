@@ -1,8 +1,6 @@
 # be-visual
 
-<!--
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
--->
 
 > Optimal media size by platform.
 
