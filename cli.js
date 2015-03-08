@@ -2,6 +2,7 @@
 'use strict';
 var meow = require('meow');
 var beVisual = require('./index');
+var stdout = require('./lib/stdout');
 
 var cli = meow({
   'help': [
@@ -13,4 +14,4 @@ var cli = meow({
   ].join('\n')
 });
 
-beVisual(cli.input[0]);
+beVisual(cli.input,stdout);
