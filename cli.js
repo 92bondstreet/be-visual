@@ -14,4 +14,4 @@ var cli = meow({
   ].join('\n')
 });
 
-beVisual(cli.input,stdout);
+beVisual(cli.input, stdout);
