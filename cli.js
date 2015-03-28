@@ -7,9 +7,10 @@ var stdout = require('./lib/stdout');
 var cli = meow({
   'help': [
     'Usage',
-    '  be-visual',
+    '  be-visual <input>',
     '',
     'Example',
+    '  be-visual Facebook Twitter',
     '  be-visual'
   ].join('\n')
 });

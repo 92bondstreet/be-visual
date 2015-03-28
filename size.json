@@ -1,42 +1,42 @@
 {
-  "Twitter":{
+  "twitter":{
     "Background": "1280 x 1024",
     "Header Photo": "1500 x 500",
     "Profile Photo": "400 x 400",
     "In-Stream Photo": "440 x 220"
   },
-  "Facebook":{
+  "facebook":{
     "Cover Photo": "851 x 315",
     "Profile Image": "180 x 180",
     "Shared Image": "1200 x 900",
     "Shared Link": "1200 x 627",
     "Highlighted Image": "1200 x 717"
   },
-  "Google+":{
+  "google+":{
     "Cover Image": "1080 x 608",
     "Profile Image": "250 x 250",
     "Shared Image": "497 x 373",
     "Shared Link": "150 x 150"
   },
-  "Instagram":{
+  "instagram":{
     "Profile Image": "110 x 110",
     "Photo Thumbnails": "161 x 161",
     "Photo Size": "640 x 640"
   },
-  "Pinterest":{
+  "pinterest":{
     "Profile Image": "165 x 165",
     "Board Display": "222 x 150",
     "Pin Size": "236 width in pixels"
   },
-  "Tumblr":{
+  "tumblr":{
     "Profile Image": "128 x 128",
     "Image Posts": "570 x 570"
   },
-  "Youtube":{
+  "youtube":{
     "Channel Cover Photo": "2560 x 1440",
     "Video Uploads": "1280 x 760"
   },
-  "Linkedin":{
+  "linkedin":{
     "Standard Logo": "100 x 60",
     "Career Cover Photo": "974 x 300",
     "Banner Image": "646 x 200",
