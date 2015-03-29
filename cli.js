@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 var meow = require('meow');
-var beVisual = require('./index');
+var visual = require('./index');
 var stdout = require('./lib/stdout');
 
 var cli = meow({
@@ -15,4 +15,4 @@ var cli = meow({
   ].join('\n')
 });
 
-beVisual(cli.input, stdout);
+visual(cli.input, stdout);
