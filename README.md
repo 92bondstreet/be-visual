@@ -33,6 +33,14 @@ $ be-visual --help
             Profile Image: 165 x 165
             Pin Size:      236 width in pixels
             Board Display: 222 x 150
+            
+      $ be-visual facebook
+          facebooK:
+            Profile Image:     180 x 180
+            Cover Photo:       851 x 315
+            Shared Image:      1200 x 900
+            Shared Link:       1200 x 627
+            Highlighted Image: 1200 x 717
 ```
 
 ## References
