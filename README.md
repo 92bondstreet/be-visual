@@ -33,7 +33,7 @@ $ be-visual --help
             Profile Image: 165 x 165
             Pin Size:      236 width in pixels
             Board Display: 222 x 150
-            
+
       $ be-visual facebook
           facebooK:
             Profile Image:     180 x 180
@@ -73,7 +73,7 @@ $ be-visual --help
 
 ## License
 
-MIT © [Yassine AZZOUT](yass.io)
+MIT © [Yassine AZZOUT](http://yass.io)
 
 
 [npm-url]: https://npmjs.org/package/be-visual

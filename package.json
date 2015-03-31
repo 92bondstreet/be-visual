@@ -1,12 +1,12 @@
 {
   "name": "be-visual",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Optimal media size by platform.",
   "homepage": "https://github.com/92bondstreet/be-visual",
   "author": {
     "name": "Yassine AZZOUT",
     "email": "yassine.azzout@gmail.com",
-    "url": "yass.io"
+    "url": "http://yass.io"
   },
   "repository": "92bondstreet/be-visual",
   "license": "MIT",
