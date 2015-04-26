@@ -1,4 +1,4 @@
-/*eslint-disable quote-props */
+/*eslint-disable quote-props, camelcase  */
 'use strict';
 module.exports = function (grunt) {
   // Show elapsed time at the end
@@ -41,8 +41,23 @@ module.exports = function (grunt) {
         files: '<%= eslint.test.src %>',
         tasks: ['eslint:test', 'mochacli']
       }
+    },
+    mocha_istanbul: {
+      coverage: {
+        src: 'test',
+        options: {
+          mask: '*.js',
+          check: {
+              lines: 75,
+              statements: 75
+          },
+          reportFormats: ['html']
+        }
+      }
     }
   });
 
   grunt.registerTask('default', ['eslint', 'mochacli']);
+  grunt.registerTask('test', ['mochacli']);
+  grunt.registerTask('coverage', ['mocha_istanbul']);
 };
