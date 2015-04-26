@@ -49,7 +49,8 @@ module.exports = function (grunt) {
           mask: '*.js',
           check: {
               lines: 75,
-              statements: 75
+              statements: 75,
+              functions: 75
           },
           reportFormats: ['html']
         }

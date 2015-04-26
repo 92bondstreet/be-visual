@@ -8,7 +8,7 @@ var visual = require('../index');
 
 describe('be-visual node module', function () {
 
-  describe('create', function(){
+  describe('.create()', function(){
     it('should return a BeVisual instance', function () {
       var instance = visual.create();
       assert.equal(instance instanceof instance.BeVisual, true, 'create BeVisual instance');
@@ -43,4 +43,18 @@ describe('be-visual node module', function () {
       });
     });
   });
+
+  describe('_guidelines(cheatSheet, callback)', function(){
+    it('should call the callback with the cheatsheet argument', function (done) {
+      visual._guidelines({}, done);
+    });
+  });
+
+  describe('_guidelines(cheatSheet)', function(){
+    it('should call the callback with the cheatsheet argument', function (done) {
+      visual._callback = done;
+      visual._guidelines({});
+    });
+  });
+
 });
